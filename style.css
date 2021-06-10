@@ -6,7 +6,7 @@ body {
 	margin:10px;
 	padding:0px;
 	background-attachment: scroll;
-	background-image: url(/image/background.jpg);
+	background: url(./image/background.jpg);
 background-size: 100%;
 	background-repeat: repeat-x;
 	background-position: left top;
@@ -53,7 +53,7 @@ background-size: 100%;
 
 #nav_block {
 	
-	width: 400px;
+	width:500px;
 	height:90px;
 	float:right;
 }
@@ -61,11 +61,10 @@ background-size: 100%;
 .nav_button {
 	
 	
-	width: 70px;
+	width: 100px;
 
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:12px;
-	margin-left:5px;
+	font-size:15px;
 	margin-top:35px;
 	text-align:center;
 	float:left;
@@ -78,18 +77,17 @@ background-size: 100%;
 	text-align: center;
 	width:100%;
 	margin-top:100px;
-	margin-bottom:250px;
-	float: left;
+	margin-bottom:150px;
+
 
 }
 
 .header_content_mainline {
 	
 	width: 100%;
-font-size:50px;
+    font-size:50px;
 	color:#ee2828;
-    width:10px;
-	font-style: italic;
+     font-style: italic;
 
 
 }
@@ -98,19 +96,24 @@ text-align: left;
 
 }
 
-
-#header_content_boxcontent {
-	font-size:12px;
-	color:#333333;
-	width:400px;
-	font-style: italic;
+.header_lover_center{
+	margin-top:5px
 }
 
+.lower_footer{
+	margin-top: 700px;
+	width:100%;
+	height: 150px;
+	background-color:#c71c1c;
+}
 .header_content_lowerboxcontent {
-	width:900px;
-	height: 100px;
-	background-color: #ee2828;
-	display: inline-block;
+    font-size:12px;
+	color:#333333;
+	width:100%;
+	font-style: italic;
+	height: 50px;
+	background-color: #c71c1c;
+
 
 	
 	font-size:12px;
